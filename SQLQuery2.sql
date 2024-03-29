@@ -1,6 +1,6 @@
-CREATE DATABASE Контакти;
+CREATE DATABASE Kontakti;
 
-USE Контакти;
+USE Kontakti;
 
 CREATE TABLE contacts (
     ID INT  PRIMARY KEY,
@@ -8,5 +8,5 @@ CREATE TABLE contacts (
     Tel VARCHAR(15)
 );
 
-INSERT INTO contacts (Name, Tel) VALUES ('Борис Стефанов', '0888000111');
-INSERT INTO contacts (Name, Tel) VALUES ('Стефка Борисова', '0899999999');
+INSERT INTO contacts (Name, Tel) VALUES ('Name and family1', '0888000111');
+INSERT INTO contacts (Name, Tel) VALUES ('Name and family2', '0899999999');
